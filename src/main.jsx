@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
 
+import headshot from './assets/Fajar_Headshot.jpg';
 import shelfDashboard from './assets/ShelfLink_Dashboard.png';
 import shelfCatalog from './assets/ShelfLink_Catalog.png';
 import shelfReturns from './assets/ShelfLink_ReturnManagement.png';
@@ -174,7 +175,7 @@ function App() {
           </div>
           <div className="hero-visual" aria-label="Abstract decorative developer graphic">
             <div className="visual-orbit orbit-one" /><div className="visual-orbit orbit-two" />
-            <div className="visual-center"><span className="bracket">{'</>'}</span><span className="center-caption">BUILD · TEST · IMPROVE</span></div>
+            <div className="visual-center"><img src={headshot} alt="Fajar Jelang Ramadhan" className="headshot-img" /></div>
             <div className="float-card card-top"><span className="tiny-dot" /> AVAILABLE TO BUILD</div>
             <div className="float-card card-bottom"><span className="mono">01—04</span><span>SELECTED PROJECTS</span></div>
             <span className="visual-cross cross-one">+</span><span className="visual-cross cross-two">+</span>
