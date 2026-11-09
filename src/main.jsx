@@ -221,7 +221,7 @@ function App() {
           <article className="timeline-item"><div className="timeline-date">2022</div><div className="timeline-body"><span className="timeline-kind">EDUCATION</span><h3>MIPA</h3><h4>MAN 2 Kota Bogor</h4></div></article> */}
         </div></div></section>
 
-        <section className="contact-section" id="contact"><div className="section-wrap contact-inner"><SectionLabel>05 / GET IN TOUCH</SectionLabel><p className="contact-kicker">HAVE A ROLE, PROJECT, OR IDEA?</p><h2>Let's make<br /><em>something</em> work.</h2><a className="contact-email" href="mailto:jihonsky@gmail.com">jihonsky@gmail.com <Arrow diagonal /></a><div className="contact-bottom"><span>BASED IN BANDUNG, INDONESIA</span><span>OPEN TO DEVELOPER OPPORTUNITIES</span></div></div></section>
+        <section className="contact-section" id="contact"><div className="section-wrap contact-inner"><SectionLabel>05 / GET IN TOUCH</SectionLabel><p className="contact-kicker">HAVE A ROLE, PROJECT, OR IDEA?</p><h2>Let's make<br /><em>something</em> work.</h2><a className="contact-email" href="mailto:jihonsky@gmail.com">jihonsky@gmail.com <Arrow diagonal /></a><br/><a className="contact-email" href="https://www.linkedin.com/in/fajar-jelang-ramadhan-a951632a5/" target="_blank" rel="noopener noreferrer">LinkedIn <Arrow diagonal /></a><div className="contact-bottom"><span>BASED IN BANDUNG, INDONESIA</span><span>OPEN TO DEVELOPER OPPORTUNITIES</span></div></div></section>
       </main>
       <footer className="footer"><a className="wordmark" href="#home">FJR<span>.</span></a><span>DESIGNED & BUILT WITH CARE · 2026</span><a href="#home">BACK TO TOP ↑</a></footer>
     </div>
